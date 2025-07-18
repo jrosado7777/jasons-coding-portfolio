@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6fa;
+  color: #333;
+  display: block !important;
+  min-height: 100vh;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hero-background {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 4rem 1rem 2rem 1rem;
+  background: linear-gradient(135deg, #6c63ff, #48b1f3);
+  color: white;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+  border: 4px solid white;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+ul li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.project-card {
+  flex: 1 1 300px;
+  max-width: 420px;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+  margin: 0 0 0.75rem;
+  color: #6c63ff;
+  font-size: 1.25rem;
+}
+
+.project-card p {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+}
