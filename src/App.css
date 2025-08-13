@@ -109,3 +109,19 @@ a:hover {
   color: #555;
   font-size: 1rem;
 }
+
+.about-me {
+  margin-bottom: 3rem;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about-me p {
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
