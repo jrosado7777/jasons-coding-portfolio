@@ -19,12 +19,32 @@ html, body {
 }
 
 .hero-background {
+  position: relative;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  padding: 4rem 1rem 2rem 1rem;
-  background: linear-gradient(135deg, #6c63ff, #48b1f3);
-  color: white;
   text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/mountains_from_drone.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px) brightness(1.3);
+  z-index: 0;
+}
+
+.profile {
+  position: relative;
+  z-index: 1;
+  padding: 4rem 1rem 2rem 1rem;
 }
 
 .profile-pic {
