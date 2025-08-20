@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="content">
         <AboutMe />
-        <ProjectLinks />
+        {/* <ProjectLinks /> */}
         <Credentials />
         <FullResume />
       </div>
