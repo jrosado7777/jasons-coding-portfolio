@@ -58,7 +58,7 @@ function ProjectLinks() {
         Other projects I've worked on include utilizing AWS Lambda for displaying business intelligence dashboards, hosted and protected via CloudFront, WAF, and CodePipeline. I've also worked on legacy PHP applications, an Apple Vision Pro app, and dabbled in phone app development with React Native.
       </p>
       <p>
-        These project were especially meaningful as I was simultaneously managing full-stack development, onboarding stakeholders, and handling GitHub/CI/CD setup at tandhe org level. I balanced heavy responsibilities while maintaining clear communication, identifying risks early, and delivering features incrementally and transparently. 
+        These project were especially meaningful as I was simultaneously managing full-stack development, onboarding stakeholders, and handling GitHub/CI/CD setup at the org level. I balanced heavy responsibilities while maintaining clear communication, identifying risks early, and delivering features incrementally and transparently. 
       </p>
 
       <br></br>
